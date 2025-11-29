@@ -6,8 +6,8 @@ import { useGetUsers } from "@/hooks/useUser";
 import { User as UserIcon } from "lucide-react";
 
 type SuggestedProfilesProps = {
-  currentUserId: number;
-  currentProfileId: number;
+  currentUserId?: number;
+  currentProfileId?: number;
 };
 
 export default function SuggestedProfiles({
